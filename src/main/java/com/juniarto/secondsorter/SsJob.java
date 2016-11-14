@@ -63,7 +63,7 @@ public class SsJob extends Configured implements Tool{
                         try {
                             //RuntimeException e = new RuntimeException();
                             //throw e;
-                            killMap(context.getTaskAttemptID());
+                            //killMap(context.getTaskAttemptID());
                             //Thread.sleep(1);
                         } catch (Exception ex) {
                             Logger.getLogger(SsJob.class.getName()).log(Level.SEVERE, null, ex);
